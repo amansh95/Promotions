@@ -1,0 +1,127 @@
+/* CSS declarations go here */
+body {
+	padding: 0px;
+	background-image: url('clock.jpg');
+}
+
+h1 {
+	font-family: "Arial";
+	font-weight: 800;
+	color: #383838;
+	letter-spacing: -2px;
+  	font-size: 300%;
+}
+
+button {
+	font-family: "Arial";
+	font-weight: 800;
+	letter-spacing: -0.5px;
+	background-color: #0f85dd;
+	border: none;
+    color: white;
+	padding: 6px 10px;
+	border: 2px solid #0f85dd;
+	border-radius: 4px;
+	-webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+}
+
+button:hover {
+    background-color: #f2f9ff;
+    color: black;
+    border: 2px solid #0f85dd;
+}
+
+#bigButton1 {
+	font-size: 200%;
+}
+
+#bigButton2 {
+	font-size: 200%;
+}
+
+[type="submit"] {
+	font-family: "Arial";
+	font-weight: 800;
+	letter-spacing: -0.5px;
+	background-color: #0f85dd;
+	border: none;
+    color: white;
+	padding: 6px 10px;
+	border: 2px solid #0f85dd;
+	border-radius: 4px;
+	-webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+}
+
+[type="submit"]:hover {
+    background-color: #f2f9ff;
+    color: black;
+    border: 2px solid #0f85dd;
+}
+
+.content {
+	width: auto;
+	text-align: center;
+	float: center;
+}
+
+.form-control.input-lg {
+	width: 250px;
+	margin: auto;
+}
+
+#newCompanyName {
+	margin: auto;
+	width: 250px;
+}
+
+.results {
+	display: inline;
+}
+
+#login-button {
+	font-family: "Arial";
+	font-weight: 800;
+	letter-spacing: -0.5px;
+	background-color: #0f85dd;
+}
+
+#login-text {
+	font-family: "Arial";
+	font-weight: 900;
+	color: #383838;
+	letter-spacing: -3px;
+}
+
+#login-image {
+	height: 37px;
+	margin-bottom: 8px;
+}
+
+#mainNavBar {
+	box-shadow: 0px -4px 20px 0px black;
+  	background-color: #ffffff;
+}
+
+#logo-clock {
+	margin-bottom: 5px;
+	margin-right: 1px;
+	height: 18px;
+	display: inline;
+}
+
+#navbar-brand {
+	font-family: "Arial";
+	font-weight: 900;
+	color: #383838;
+	letter-spacing: -1px;
+  	font-size: 150%;
+}
+
+#navbar-collapse * {
+	font-family: "Arial";
+	font-weight: bold;
+	color: #383838;
+	letter-spacing: -0.5px;
+}

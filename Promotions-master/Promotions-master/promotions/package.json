@@ -1,0 +1,22 @@
+{
+  "name": "promotions",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "bcrypt": "^1.0.3",
+    "child_process": "^1.0.2",
+    "childprocess": "^2.0.2",
+    "meteor-node-stubs": "^0.2.11",
+    "prop-types": "^15.6.0",
+    "react": "^15.6.2",
+    "react-addons-pure-render-mixin": "^15.6.2",
+    "react-bootstrap-table": "^4.1.0",
+    "react-dom": "^15.6.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-table": "^6.6.0"
+  }
+}
